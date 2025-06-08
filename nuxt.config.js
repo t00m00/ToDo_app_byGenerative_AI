@@ -16,7 +16,8 @@ export default {
   },
 
   router: {
-    mode: 'hash'
+    mode: 'hash',
+    base: '/ToDo_app_byGenerative_AI/'
   },
   generate: {
     fallback: true  // 404.html も自動出力させたいなら true
@@ -51,5 +52,7 @@ export default {
   },
 
   // Build Configuration
-  build: {}
+  build: {
+    publicPath: '/ToDo_app_byGenerative_AI/_nuxt/'
+  }
 }
