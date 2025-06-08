@@ -39,7 +39,6 @@ dist/
 .nyc_output
 
 # Build & Deploy
-/dist
 /tmp
 /out-tsc
 /build
