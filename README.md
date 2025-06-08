@@ -2,6 +2,10 @@
 
 シンプルな Todo アプリケーションです。Vue.js と Nuxt.js を使用して構築されています。
 
+## Publish page
+
+[here](https://t00m00.github.io/ToDo_app_byGenerative_AI/)
+
 ## 機能
 
 - タスクの追加
