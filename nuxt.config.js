@@ -15,6 +15,13 @@ export default {
     ]
   },
 
+  router: {
+    mode: 'hash'
+  },
+  generate: {
+    fallback: true  // 404.html も自動出力させたいなら true
+  },
+
   // Global CSS
   css: [],
 
